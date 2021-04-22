@@ -3,8 +3,8 @@
 }
 .webcamCapture__button {
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  bottom: -43px;
+  left: 43%;
   transform: transform(-50%, -50%);
   cursor: pointer;
   color: white;

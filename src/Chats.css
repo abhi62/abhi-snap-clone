@@ -10,7 +10,7 @@
   color: gray;
   font-size: 40px !important;
   cursor: pointer;
-  bottom: 0;
+  bottom: -71px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -62,6 +62,14 @@
   border-top-right-radius: 10px;
   background-color: #fff;
   overflow: scroll;
+}
+
+.chats__posts::-webkit-scrollbar {
+  display: none;
+}
+.chats__posts {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .chats__avatar {
