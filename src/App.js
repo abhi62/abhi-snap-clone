@@ -42,7 +42,7 @@ function App() {
               src='https://lakeridgenewsonline.com/wp-content/uploads/2020/04/snapchat.jpg'
               alt=''
             /> */}
-            <h1 className='app__logo'>🦉 </h1>
+            <h1 className='app__logo'>🦉</h1>
             <div className='app__body'>
               <div className='app__bodyBackground'>
                 <Switch>
